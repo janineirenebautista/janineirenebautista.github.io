@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Janine Bautista | Portfolio - My Projects</title>
+    <!-- Bootstrap CSS CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top shadow-sm">
+        <div class="container">
+            <a class="navbar-brand fw-bold font-heading text-warning" href="index.html">
+                <span class="text-white">Janine</span>.Bautista
+            </a>
+            <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav align-items-lg-center gap-lg-2">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="projects.html">My Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="coursework.html">Web Design Coursework</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                    <li class="nav-item ms-lg-2 mt-2 mt-lg-0">
+                        <button id="darkModeToggle" class="btn btn-sm btn-outline-warning rounded-pill px-3 py-1 d-flex align-items-center gap-1">
+                            <span class="icon">🌙</span> <span class="toggle-text">Dark</span>
+                        </button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <header class="py-5 bg-light border-bottom">
+        <div class="container text-center py-4">
+            <span class="badge bg-warning text-dark px-3 py-2 rounded-pill fw-semibold mb-2">Portfolio Showcase</span>
+            <h1 class="display-5 fw-bold font-heading">My Projects</h1>
+            <p class="text-muted lead mb-0">Explore creative and academic projects featuring local video files and interactive video modal previews.</p>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="py-5">
+        <div class="container">
+            <div class="row g-4">
+
+                <!-- Project 1 -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="card h-100 border-0 shadow-sm rounded-4 overflow-hidden project-card">
+                        <div class="bg-dark text-white p-4 text-center position-relative video-thumb-container" style="min-height: 200px; display: flex; align-items: center; justify-content: center; background: linear-gradient(135deg, #212529 0%, #343a40 100%);">
+                            <div class="position-absolute top-0 start-0 m-3">
+                                <span class="badge bg-warning text-dark">Capstone Thesis</span>
+                            </div>
+                            <button class="btn btn-warning rounded-circle p-3 shadow play-modal-btn" 
+                            data-video-src="assets\Project\Safe Space\safespace_animatic_ep1_withscreenplay.mp4"
+                            data-project-title="Safe [Space]: 2D Animated Web-Series">
+                                <span class="fs-4">▶</span>
+                            </button>
+                        </div>
+                        <div class="card-body p-4 d-flex flex-column">
+                            <h4 class="font-heading fw-bold h5 mb-2">Safe [Space] Animated Series</h4>
+                            <p class="text-muted small mb-3">A 2D animated web-series exploring young adults' perceptions of online mental health communities and support promotion.</p>
+                            <div class="mt-auto">
+                                <div class="d-flex flex-wrap gap-1 mb-3">
+                                    <span class="badge bg-light text-secondary border">Animation</span>
+                                    <span class="badge bg-light text-secondary border">Scriptwriting</span>
+                                    <span class="badge bg-light text-secondary border">Sound Design</span>
+                                </div>
+                                <!-- <button class="btn btn-outline-warning w-100 fw-semibold btn-sm open-video-modal" data-video-src="assets/videos/project1.mp4" data-project-title="Safe [Space]: 2D Animated Web-Series">
+                                    Play Local Video Preview
+                                </button> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="card h-100 border-0 shadow-sm rounded-4 overflow-hidden project-card">
+                        <div class="bg-dark text-white p-4 text-center position-relative video-thumb-container" style="min-height: 200px; display: flex; align-items: center; justify-content: center; background: linear-gradient(135deg, #198754 0%, #157347 100%);">
+                            <div class="position-absolute top-0 start-0 m-3">
+                                <span class="badge bg-warning text-dark">2nd Semester</span>
+                            </div>
+                            <button class="btn btn-warning rounded-circle p-3 shadow play-modal-btn" 
+                            data-video-src="assets\Project\2ND Semester\2ND SEMESTER Final Trailer.mp4" 
+                            data-project-title="Plastik di Walastik! Campaign">
+                                <span class="fs-4">▶</span>
+                            </button>
+                        </div>
+                        <div class="card-body p-4 d-flex flex-column">
+                            <h4 class="font-heading fw-bold h5 mb-2">2nd Semester</h4>
+                            <p class="text-muted small mb-3">A story about the boys love that they not end with each other </p>
+                            <div class="mt-auto">
+                                <div class="d-flex flex-wrap gap-1 mb-3">
+                                    <span class="badge bg-light text-secondary border">Boys Love</span>
+                                    <span class="badge bg-light text-secondary border">Video Production</span>
+                                    <span class="badge bg-light text-secondary border">MMA0040</span>
+                                </div>
+                                <!-- <button class="btn btn-outline-warning w-100 fw-semibold btn-sm open-video-modal" data-video-src="assets/videos/project2.mp4" data-project-title="Plastik di Walastik! Campaign">
+                                    Play Local Video Preview
+                                </button> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="card h-100 border-0 shadow-sm rounded-4 overflow-hidden project-card">
+                        <div class="bg-dark text-white p-4 text-center position-relative video-thumb-container" style="min-height: 200px; display: flex; align-items: center; justify-content: center; background: linear-gradient(135deg, #0dcaf0 0%, #03161a 100%);">
+                            <div class="position-absolute top-0 start-0 m-3">
+                                <span class="badge bg-dark text-warning">Promotional Ads</span>
+                            </div>
+                            <button class="btn btn-warning rounded-circle p-3 shadow play-modal-btn" 
+                            data-video-src="assets\Project\Promotional Ads\PROMOTIONAL ADS.mp4" 
+                            data-project-title="Responsive Portfolio Showcase">
+                                <span class="fs-4">▶</span>
+                            </button>
+                        </div>
+                        <div class="card-body p-4 d-flex flex-column">
+                            <h4 class="font-heading fw-bold h5 mb-2">Promotional Ads</h4>
+                            <p class="text-muted small mb-3"> Don't miss weekly deals on bestselling tees, innerwear, and outerwear. Download the UNIQLO App for exclusive member coupons and free Click & Collect!</p>
+                            <div class="mt-auto">
+                                
+                                <!-- <button class="btn btn-outline-warning w-100 fw-semibold btn-sm open-video-modal" data-video-src="assets/videos/project3.mp4" data-project-title="Responsive Portfolio Showcase">
+                                    Play Local Video Preview
+                                </button> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </main>
+
+    <!-- Custom Video Modal (Functional Local Video Player) -->
+    <div class="modal fade" id="videoModal" tabindex="-1" aria-labelledby="videoModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content bg-dark text-white border-0 rounded-4 overflow-hidden shadow-lg">
+                <div class="modal-header border-bottom border-secondary px-4 py-3">
+                    <h5 class="modal-heading font-heading fw-bold mb-0 text-warning" id="videoModalLabel">Project Video Preview</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body p-0 bg-black text-center">
+
+                    <div class="ratio ratio-16x9" style="margin-bottom: 8px;">
+                        <video id="localProjectVideo" controls preload="metadata" class="w-100 h-100">
+                            <!-- Local file placeholder path as requested -->
+                            <source src="" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                </div>
+                <div  class="modal-footer border-top border-secondary px-4 py-3 justify-content-between">
+                    <!-- <p class="text-muted small mb-0">Playing from local directory: <code class="text-warning" id="videoSourceText">assets/videos/project1.mp4</code></p> -->
+                    <p></p>
+                    <button type="button" class="btn btn-secondary btn-sm rounded-pill px-4" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-4 mt-5">
+        <div class="container text-center">
+            <p class="mb-1 fw-semibold">&copy; 2026 Janine Irene P. Bautista. All Rights Reserved.</p>
+            <p class="text-muted small mb-0">FEU Institute of Technology • Bachelor of Multimedia Arts Graduate</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="assets/js/main.js"></script>
+</body>
+</html>

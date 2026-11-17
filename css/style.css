@@ -1,0 +1,106 @@
+/* =========================================
+   FEU Tech Personal Portfolio - Custom CSS
+   Author: Janine Irene P. Bautista
+   ========================================= */
+
+:root {
+  --bs-font-sans-serif: "Plus Jakarta Sans", sans-serif;
+  --font-heading: "Space Grotesk", sans-serif;
+  --bg-color: #ffffff;
+  --text-color: #212529;
+  --card-bg: #ffffff;
+  --border-color: #dee2e6;
+}
+
+body {
+  font-family: var(--bs-font-sans-serif);
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  transition:
+    background-color 0.3s ease,
+    color 0.3s ease;
+}
+
+.font-heading {
+  font-family: var(--font-heading);
+}
+
+/* Hover Cards */
+.hover-card {
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+.hover-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+}
+
+/* Project & Coursework Cards */
+.project-card,
+.coursework-card {
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+.project-card:hover,
+.coursework-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.12) !important;
+}
+
+.coursework-card {
+  cursor: pointer;
+}
+
+/* Dark Mode Theme Styles */
+body.dark-mode {
+  --bg-color: #121212;
+  --text-color: #f8f9fa;
+  --card-bg: #1e1e1e;
+  --border-color: #2d3748;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+
+body.dark-mode .card {
+  background-color: var(--card-bg) !important;
+  color: var(--text-color);
+  border-color: var(--border-color) !important;
+}
+
+body.dark-mode .bg-light {
+  background-color: #1a1a1a !important;
+  color: #f8f9fa !important;
+}
+
+body.dark-mode .border {
+  border-color: var(--border-color) !important;
+}
+
+body.dark-mode .text-muted {
+  color: #adb5bd !important;
+}
+
+body.dark-mode .form-control {
+  background-color: #212529;
+  color: #fff;
+  border-color: #495057;
+}
+
+body.dark-mode .form-control:focus {
+  background-color: #212529;
+  color: #fff;
+}
+
+#modalActivityImage,
+#modalActivityPreview {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  max-width: 600px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
